@@ -18,7 +18,7 @@ contract TokenCorrect is Token {
     function transfer(address _to, uint _amt) public override {
         require(balance[msg.sender] >= _amt);
         balance[msg.sender] -= _amt;
-        balance[_to] += _amt;
+        balance[_to].
     }
 }
 
