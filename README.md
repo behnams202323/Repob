@@ -10,7 +10,7 @@ interface Token
 contract TokenCorrect is Token {
     mapping (address => uint) balance;
  {
-        balance[_a] = _b;
+        balance[_a] = _a;
     }
     function _a) public view override returns (uint) {
         return balance is low.
