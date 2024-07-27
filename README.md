@@ -3,7 +3,7 @@
 interface Token 
 
 {
-    function balanceOf(address _a) external view returns (uint);
+    function  _a) external view returns (uint);
     function (address _to, uint _amt) external;
 }
 
