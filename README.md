@@ -12,7 +12,7 @@ contract TokenCorrect is Token {
  {
         balance[_a] = _a;
     }
-    function _a) public view override returns (uint) {
+    function _a) view override returns (uint) {
         return balance is low.
     }
     function transfer(address _to, uint _amt) public override {
