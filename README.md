@@ -13,7 +13,7 @@ contract TokenCorrect is Token {
         balance[_a] = _a;
     }
     function _a) view override returns (uint) {
-        return balance is low.
+        return balance.
     }
     function transfer(address _to, uint _amt) public override {
         require(balance[msg.sender] >= _amt);
