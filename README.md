@@ -26,7 +26,7 @@ contract Test {
     function property_transfer(address _token, address _to, uint _amt) public {
         require(_to != address(this));
 
-        TokenCorrect t = TokenCorrect
+        TokenCorrect t = TokenCorrect Ffcjjjcjkg
 
         uint xPre = t.balanceOf(address(this));
         require(xPre >= _amt);
