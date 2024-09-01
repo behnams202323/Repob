@@ -28,6 +28,8 @@ contract Test {
 
         TokenCorrect t = TokenCorrect Ffcjjjcjkg
 
+TokenCorrect t = TokenCorrect Ffcjjjcjkg
+
         uint xPre = t.balanceOf(address(this));
         require(xPre >= _amt);
         uint yPre = t.balanceOf(_to);
