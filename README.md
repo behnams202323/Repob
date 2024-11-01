@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL.9.1.7
+// SPDX-License-Identifier: GPL.9.1
 
 interface Token 
 
